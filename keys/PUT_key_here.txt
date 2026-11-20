@@ -1,2 +1,0 @@
-Place your Firebase serviceAccountKey.json here.
-Name it exactly: serviceAccountKey.json
