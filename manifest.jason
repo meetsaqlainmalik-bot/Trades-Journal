@@ -1,0 +1,13 @@
+{
+  "name": "TradeFlow - Trading Journal",
+  "short_name": "TradeFlow",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#1a1a2e",
+  "theme_color": "#6c5ce7",
+  "icons": [
+    { "src": "logo/logo.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "logo/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}
