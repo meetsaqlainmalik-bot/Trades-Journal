@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 64 64" role="img" aria-labelledby="tf-title">
+  <title id="tf-title">TradeFlow</title>
+  <defs>
+    <linearGradient id="tf-bg" x1="4" y1="0" x2="60" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6c5ce7"/>
+      <stop offset=".55" stop-color="#a855f7"/>
+      <stop offset="1" stop-color="#ec4899"/>
+    </linearGradient>
+    <radialGradient id="tf-glow" cx="22%" cy="8%" r="78%">
+      <stop stop-color="#ffffff" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="tf-glow-2" cx="92%" cy="96%" r="62%">
+      <stop stop-color="#ffffff" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="64" height="64" rx="18" fill="url(#tf-bg)"/>
+  <rect width="64" height="64" rx="18" fill="url(#tf-glow)"/>
+  <rect width="64" height="64" rx="18" fill="url(#tf-glow-2)"/>
+  <rect x=".6" y=".6" width="62.8" height="62.8" rx="17.4" fill="none" stroke="#ffffff" stroke-opacity=".2" stroke-width="1.2"/>
+  <path d="M14 46C21 46 23 37 30 34" fill="none" stroke="#ffffff" stroke-opacity=".28" stroke-width="2.4" stroke-linecap="round"/>
+  <g fill="#ffffff">
+    <rect x="16.5" y="32" width="9" height="17.5" rx="3.5"/>
+    <rect x="27.5" y="25" width="9" height="23.5" rx="3.5"/>
+    <rect x="38.5" y="18" width="9" height="27.5" rx="3.5"/>
+  </g>
+  <g fill="none" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round">
+    <path d="M21 27.5V32M21 49.5V54"/>
+    <path d="M32 20V25M32 48.5V53.5"/>
+    <path d="M43 12V18M43 45.5V52"/>
+  </g>
+</svg>
