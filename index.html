@@ -10,7 +10,7 @@
 <meta name="apple-mobile-web-app-title" content="TradeFlow">
 <title>TradeFlow — Trading Journal</title>
 <link rel="icon" type="image/svg+xml" href="logo/logo.svg">
-<link rel="apple-touch-icon" sizes="180x180" href="logo/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="logo/apple-touch-icon.png"><link rel="manifest" href="manifest.json">
 <script>
   try{
     document.documentElement.setAttribute('data-theme', localStorage.getItem('tradeflow_theme') || 'light');
@@ -3175,5 +3175,7 @@ window.__tradeflowLoaded = true;
   applyHash();
 })();
 </script>
-</body>
+<script>
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');
+</script></body>
 </html>
