@@ -495,7 +495,7 @@
     border-color:var(--primary);background:var(--card);
     box-shadow:0 0 0 4px rgba(108,92,231,.12);
   }
-  .textarea{resize:vertical;min-height:96px}
+ .textarea{resize:vertical;min-height:150px;line-height:1.75}
   .input:disabled,.select:disabled,.textarea:disabled{opacity:.55;cursor:not-allowed;background:var(--soft-2)}
   .input[readonly]{background:var(--soft-2);cursor:default}
   .select{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%236b7280' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 6l4 4 4-4'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;padding-right:40px;cursor:pointer}
@@ -623,8 +623,13 @@
   .tag-sell{font-size:.66rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;background:var(--loss-soft);color:var(--loss);padding:4px 9px;border-radius:99px}
   .emo-chip{font-size:.68rem;font-weight:800;padding:4px 9px;border-radius:99px;letter-spacing:.03em}
   .trade-meta{display:flex;gap:18px;flex-wrap:wrap;font-size:.8rem;color:var(--muted);font-weight:600}
-  .trade-meta b{color:var(--ink);font-weight:800}
-  .trade-note{font-size:.84rem;color:var(--ink);opacity:.85;line-height:1.65;background:var(--note-bg);border-left:3px solid var(--note-border);padding:13px 17px;border-radius:0 11px 11px 0;margin-top:4px;white-space:pre-wrap;word-break:break-word}
+  .trade-meta b{color:var(--ink);font-weight:800}.trade-note{font
+ .trade-note{
+  font-size:.93rem;color:var(--ink);line-height:1.95;letter-spacing:.012em;
+  background:var(--note-bg);border-left:4px solid var(--note-border);
+  padding:17px 22px;border-radius:0 12px 12px 0;margin-top:8px;
+  white-space:pre-wrap;overflow-wrap:anywhere;
+}
   .trade-right{display:flex;align-items:center;gap:12px}
   .trade-pnl{font-size:1.18rem;font-weight:800;white-space:nowrap;text-align:right}
   .thumb{
@@ -1002,6 +1007,7 @@
     .day-info h4{font-size:.9rem}
     .day-total{font-size:.8rem;padding:6px 9px}
     .trade{padding:13px;border-radius:13px;gap:10px}
+    .trade-note{font-size:.9rem;line-height:1.9;padding:15px 16px;margin-top:6px}
     .trade-pnl{font-size:1.02rem}
     .trade-actions{gap:6px}
     .act{width:36px;height:36px}
